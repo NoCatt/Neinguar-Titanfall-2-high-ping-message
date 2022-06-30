@@ -1,0 +1,24 @@
+{
+    "Name": "Neinguar.HighPingWarning",
+    "Description":"Sends a message to a player when they have a ping above 200ms",
+    "LoadPriority": 0,
+    "RequiredOnClient": false,
+    "Version": "1.0.0",
+
+        "ConVars":[
+        {
+            "Name": "PingLimit",
+            "DeafaultValue": 200
+        }
+        ],
+        "Scripts":[
+            {
+            "Path": "Neinguar_Ping.nut",
+            "RunOn":"Server && MP",
+            "ServerCallback":{
+                "After": "Neinguar_Ping_init"
+                }
+            }
+        ]
+
+    }
