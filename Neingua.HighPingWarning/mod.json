@@ -7,8 +7,12 @@
 
         "ConVars":[
         {
-            "Name": "PingLimit",
+            "Name": "Ping_Limit",
             "DeafaultValue": 200
+        },
+        {
+            "Name": "Time_Before_Message",
+            "DeafaultValue": 20
         }
         ],
         "Scripts":[
