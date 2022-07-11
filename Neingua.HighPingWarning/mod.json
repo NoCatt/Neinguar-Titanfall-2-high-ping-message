@@ -13,6 +13,10 @@
         {
             "Name": "Time_Before_Message",
             "DeafaultValue": 20
+        },
+        {
+            "Name": "Amout_Of_Messages",
+            "DeafaultValue": 5
         }
         ],
         "Scripts":[
