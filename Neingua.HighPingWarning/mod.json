@@ -22,7 +22,7 @@
         "Scripts":[
             {
             "Path": "Neinguar_Ping.nut",
-            "RunOn":"Server && MP",
+            "RunOn":"SERVER",
             "ServerCallback":{
                 "After": "Neinguar_Ping_init"
                 }
